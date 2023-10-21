@@ -1,0 +1,87 @@
+body{
+    background-color: #1b1b32;
+}
+
+header  #set {
+    font-size: 100px; 
+    position: static;
+    margin:auto 250px
+}
+
+#myh1{ 
+    position: static;
+    margin:auto 221px
+  
+}
+
+.countHolder button {
+  padding: 0.1em 0.25em;
+  width: 13em;
+  height: 4.2em;
+  background-color: #212121;
+  border: 0.08em solid #fff;
+  border-radius: 0.3em;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.countHolder button span {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0.4em;
+  width: 8.25em;
+  height: 2.5em;
+  background-color: #212121;
+  border-radius: 0.2em;
+  font-size: 1.5em;
+  color: #fff;
+  border: 0.08em solid #fff;
+  box-shadow: 0 0.4em 0.1em 0.019em #fff;
+  
+}
+
+.countHolder button span:hover {
+  transition: all 0.5s;
+  transform: translate(0, 0.4em);
+  box-shadow: 0 0 0 0 #fff;
+}
+
+.countHolder button span:not(hover) {
+  transition: all 1s;
+}
+.countHolder{
+text-align: center;
+
+}
+
+
+/*test*/
+.card {
+    width: 600px;
+    height: 254px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    display: block;
+    margin: 120px auto;
+    padding: auto;
+}
+  
+  .card__content {
+    background: rgb(5, 6, 45);
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+
+
+
+
+
+
